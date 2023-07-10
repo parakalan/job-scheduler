@@ -21,7 +21,7 @@ This job scheduler pairs perfectly with APIs, especially those that require an i
     
     class MyAwesomeJob(Job):
         def process(self, **kwargs):
-            # Implement your job logic here
+            # Implement your job logic here. You can break the world if you please.
             pass
     ```
     
