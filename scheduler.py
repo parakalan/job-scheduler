@@ -6,7 +6,8 @@ from job_scheduler.jobs.test_job import TestJob
 class JobScheduler:
     """
     This class is responsible for managing and running jobs.
-    It has methods to add a job, remove a job, and run a job.
+    It has a method to run a job.
+    Add your jobs in the init method.
     """
     def __init__(self):
         self.jobs = {
